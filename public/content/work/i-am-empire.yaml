@@ -1,0 +1,114 @@
+meta:
+  title: I Am Empire
+  description: For Tooth &amp; Nail Records band I Am Empire, I concepted and designed eleven unique album covers inspired by the band's lyrics to be released weekly leading up to the album release.
+  image: /img/work/i-am-empire/og-img.jpg
+
+title: I Am Empire
+
+listing:
+  type: Content
+  image: /img/work/i-am-empire/marquee-bg.jpg
+  marquee-device: /img/work/i-am-empire/listing.png
+
+blocks:
+  -
+    type: marquee
+    project-type: Content
+    title: I Am Empire
+    background-image: /img/work/i-am-empire/marquee-bg.jpg
+    marquee-device: /img/work/i-am-empire/listing.png
+    mobile-marquee: /img/work/i-am-empire/mobile-bg.jpg
+
+  -
+    type: project-description
+    year: 2013
+    team: Freelance
+    role: Art Direction, Design, Concept
+    writeup: For Tooth &amp; Nail Records band I Am Empire, I concepted and designed eleven unique album covers inspired by the band's lyrics to be released weekly leading up to the album release.
+
+  -
+    type: single-image-left
+    image: /img/work/i-am-empire/aroundme_web.jpg
+    caption: Track 3 &ndash; Around Me
+
+  -
+    type: space
+
+  -
+    type: single-image-right
+    image: /img/work/i-am-empire/mastermind_web.jpg
+    caption: Track 6 &ndash; The Mastermind is Me
+
+  -
+    type: space
+
+  -
+    type: single-image-far-left
+    image: /img/work/i-am-empire/remedy_web.jpg
+    caption: Track 9 &ndash; Remedy
+
+  -
+    type: space
+
+  -
+    type: single-image-far-right
+    image: /img/work/i-am-empire/gasoline.jpg
+    caption: Track 2 &ndash; Gasoline
+  -
+    type: space
+
+  -
+    type: single-image-center
+    image: /img/work/i-am-empire/labor_web.jpg
+    caption: Track 4 &ndash; Labor
+
+  -
+    type: space
+
+  -
+    type: single-image-far-left
+    image: /img/work/i-am-empire/gravity_web.jpg
+    caption: Track 1 &ndash; Gravity Bomb
+
+  -
+    type: space
+
+  -
+    type: single-image-right
+    image: /img/work/i-am-empire/mirror_web.jpg
+    caption: Track 7 &ndash; Tell Me Mirror
+
+  -
+    type: space
+
+  -
+    type: single-image-center
+    image: /img/work/i-am-empire/sing_web.jpg
+    caption: Track 5 &ndash; Sing
+
+  -
+    type: space
+
+  -
+    type: single-image-far-left
+    image: /img/work/i-am-empire/labor1_web.jpg
+    caption: Track 4 &ndash; Labor
+
+  -
+    type: space
+
+  -
+    type: single-image-far-right
+    image: /img/work/i-am-empire/daylight_web.jpg
+    caption: Track 8 &ndash; Daylight
+
+  -
+    type: space
+
+  -
+    type: single-image-left
+    image: /img/work/i-am-empire/blackout_web.jpg
+    caption: Track 10 &ndash; Blackout
+
+  -
+    type: space

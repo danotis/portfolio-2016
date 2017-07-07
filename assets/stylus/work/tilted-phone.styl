@@ -1,0 +1,38 @@
+.tilted-phone
+  position relative
+  width 100%
+  padding 300px 0
+
+  img
+    position relative
+    width 585px
+    margin 0 auto
+    display block
+    z-index 9999
+
+  .bg-color
+    width 5000px
+    height 440px
+    position absolute
+    bottom 230px
+    right -100%
+    z-index 1
+
+  @media(max-width: tablet)
+    padding 180px 0
+
+    .bg-color
+      height 440px
+      bottom 120px
+
+  @media(max-width: mobile)
+    padding 150px 0
+
+    img
+      width 100%
+
+    .bg-color
+      height 250px
+      bottom 130px
+      width 375px
+      left -10%

@@ -1,0 +1,107 @@
+#album-footer
+  position relative
+  height 100%
+
+  a:hover
+    background #7df1d7
+    color #000
+    cursor pointer
+
+.red
+  background #ec684a !important
+
+.purp
+  background #c07bff !important
+
+.space
+  margin-left 15px
+
+.wrapper-foot
+  position relative
+  top 300px
+  display inline-block
+  width 100%
+
+.footer-col
+  display inline-block
+  width 33%
+  text-align center
+  color #000
+  position relative
+
+  h2
+    font-family 'Work Sans', Arial, sans-serif
+    font-size 24px
+    font-weight 400
+    margin-bottom 30px
+
+  &:after
+    content ""
+    display block
+    width 1px
+    height 200px
+    background-color #EEE
+    position absolute
+    right -10px
+    top -35px
+
+  &:last-of-type
+    &:after
+      content none
+
+.footer-button
+  font-size 15px
+  background #44a5f9
+  padding 15px 25px
+  border-radius 100px
+
+
+.copyright
+  clear both
+  position absolute
+  color #bbb
+  text-align center
+  font-size 12px
+  bottom 20px
+  right 0
+  width 200px
+  margin 0 auto
+  display block
+  left 0
+
+  a
+    color #bbb
+
+  a:hover
+    color #fff !important
+  //
+  // @media(max-width: mobile)
+
+@media(max-width: tablet-landscape)
+
+  .footer-col
+    width 32%
+
+  .wrapper-foot
+    width 90%
+    margin-left 100px
+
+@media(max-width: tablet)
+
+  .footer-col
+    width 100%
+    margin-bottom 150px
+
+  .wrapper-foot
+    width 100%
+    top 100px
+    margin-bottom 0
+    margin-left 0
+
+@media(max-width: mobile)
+
+  .wrapper-foot
+    top 50px
+
+  .footer-col
+    margin-bottom 70px

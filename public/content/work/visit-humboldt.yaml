@@ -1,0 +1,55 @@
+meta:
+  title: Visit Humboldt
+  description: Along with the creative team at Misfit, I worked with our team at Bukwild in concepting and art directing an interactive visual trip planner that introduces people to the beauty of Humboldt County.
+  image: /img/work/visit-humboldt/og-img.jpg
+
+title: Visit Humboldt
+
+listing:
+  type: Website
+  image: /img/work/visit-humboldt/marquee-bg.jpg
+  marquee-device: /img/work/visit-humboldt/marquee-devices.png
+
+blocks:
+  -
+    type: marquee
+    project-type: Website
+    title: Visit Humboldt
+    background-image: /img/work/visit-humboldt/marquee-bg.jpg
+    marquee-device: /img/work/visit-humboldt/marquee-devices.png
+    mobile-marquee: /img/work/visit-humboldt/mobile-bg.jpg
+    launch-project: http://www.visithumboldt.com/
+
+  -
+    type: project-description
+    year: 2015
+    team: <a href="http://www.bukwild.com/" target="_blank">Bukwild</a> &amp; <a href="http://agencymisfit.com/" target="_blank">Misfit</a>
+    role: Art Direction, UX, UI
+    writeup: Along with the creative team at Misfit, I worked with our team at Bukwild in concepting and art directing an interactive visual trip planner that introduces people to the beauty of Humboldt County.
+    accolades: <span class="dark-gray">Accolades &mdash;</span> <a href="http://www.awwwards.com/sites/visit-humboldt-california" target="_blank">Site of the Day &ndash; Awwwards</a>, <a href="https://twitter.com/WebDesignerMag/status/752893413201149952" target="_blank">Web Designer Magazine</a>
+
+  -
+    type: solo-screen-humboldt
+    image: /img/work/visit-humboldt/countdown.png
+    background-color: '#FAEA57'
+
+  -
+    type: space
+
+  -
+    type: single-image
+    image: /img/work/visit-humboldt/itinerary.jpg
+
+  -
+    type: space
+
+  -
+    type: space
+
+  -
+    type: solo-screen-humboldt
+    image: /img/work/visit-humboldt/accommodations.jpg
+    background-color: '#FAEA57'
+
+  -
+    type: space

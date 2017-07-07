@@ -1,0 +1,60 @@
+meta:
+  title: Stikwood
+  description: As Art Director at Bukwild, I worked with our team on a complete overhaul of Stikwood.com.
+  image: /img/work/stikwood/og-img.jpg
+
+title: Stikwood
+
+listing:
+  type: Website
+  image: /img/work/stikwood/marquee-bg.jpg
+  marquee-device: /img/work/stikwood/marquee-device.png
+
+blocks:
+  -
+    type: marquee
+    project-type: Website
+    title: stikwood
+    background-image: /img/work/stikwood/marquee-bg.jpg
+    marquee-device: /img/work/stikwood/marquee-device.png
+    mobile-marquee: /img/work/stikwood/mobile-bg.jpg
+    launch-project: http://www.stikwood.com/
+
+  -
+    type: project-description
+    year: 2015
+    team: <a href="http://www.bukwild.com/" target="_blank">Bukwild</a>
+    role: Design, UX
+    writeup: As Art Director at Bukwild, I worked with our team on a complete overhaul of Stikwood.com. Focused on creating a user-first mobile experience, we increased mobile conversions by 75%.
+    accolades: <span class="dark-gray">Accolades &mdash;</span> <a href="http://www.awwwards.com/sites/stikwood" target="_blank">Honorable Mention &ndash; Awwwards</a>
+
+  -
+    type: single-image
+    image: /img/work/stikwood/sketch-1.jpg
+
+  -
+    type: space-short
+
+  -
+    type: single-image
+    image: /img/work/stikwood/sketch-2.jpg
+    caption: Production UX sketches
+
+  -
+    type: tilted-phone
+    image: /img/work/stikwood/tilted-phone.png
+    background-color: '#FFC222'
+
+  -
+    type: laptop
+    image: /img/work/stikwood/laptop-inspiration.jpg
+
+  -
+    type: solo-screen-stikwood
+    image: /img/work/stikwood/solo-screen.png
+    background-color: '#FFC222'
+
+  -
+    type: three-up-phones
+    image: /img/work/stikwood/three-up-phones.png
+    caption: Compare tool

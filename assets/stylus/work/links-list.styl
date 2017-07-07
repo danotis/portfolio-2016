@@ -1,0 +1,60 @@
+.links-list
+  margin-bottom 25px
+  width 55%
+  float right
+
+  ul
+    padding-left 0
+    position relative
+    top -38px
+
+  p.info-label
+    font-family "brandon-grotesque", Arial, sans-serif
+    font-size 14px
+    font-weight 600
+    letter-spacing 6px
+    color #4c4c4c
+    text-transform uppercase
+    position relative
+    left -205px
+
+  .gap
+    margin-top 30px
+
+  li
+    font-size 14px
+    font-weight 400
+    letter-spacing .5px
+    line-height 26px
+
+    a
+      color #BBB
+    a:hover
+      color #E2BA58
+
+    .icon-arrow
+      font-size 11px
+      margin-right 8px
+
+  @media(max-width: tablet-landscape)
+    width 75%
+
+    p.info-label
+      left -175px
+
+  @media(max-width: tablet)
+    width 85%
+    float none
+    margin 0 auto
+
+    p.info-label
+      position inherit
+
+    ul
+      position inherit
+
+  @media(max-width: mobile)
+    width 100%
+    float none
+    margin 0 auto
+    margin-bottom 100px

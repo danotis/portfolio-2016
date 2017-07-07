@@ -1,0 +1,701 @@
+/* GENERAL STYLES
+******************************************/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+     box-sizing: border-box;
+     width: 100%;
+     height: 100%;
+}
+*, *:before, *:after {
+     box-sizing: inherit;
+}
+
+body {
+   background: #1F1F1F;
+   color: #fff;
+   font-family: "source-code-pro", Courior, serif;
+   font-size: 14px;
+   line-height: 23px;
+   width: 100%;
+   height: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+
+.links {
+  position: relative;
+  float: right;
+  right: -60px;
+  transform: rotate(270deg);
+  top: 500px;
+}
+
+li a {
+  color: #FFF;
+}
+
+a.mentions {
+  position: relative;
+  left: 290px;
+}
+
+/*a.go-back {
+  margin-left: 20px;
+  position: absolute;
+  bottom: 20px;
+
+}*/
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+
+.container ul {
+  list-style-type: none;
+}
+
+.container ul li {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: 800;
+}
+
+@font-face {
+     font-family: 'icomoon';
+     src:url('fonts/icomoon.eot?mdnh7y');
+     src:url('fonts/icomoon.eot?#iefixmdnh7y') format('embedded-opentype'),
+          url('fonts/icomoon.woff?mdnh7y') format('woff'),
+          url('fonts/icomoon.ttf?mdnh7y') format('truetype'),
+          url('fonts/icomoon.svg?mdnh7y#icomoon') format('svg');
+     font-weight: normal;
+     font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+     font-family: 'icomoon';
+     speak: none;
+     font-style: normal;
+     font-weight: normal;
+     font-variant: normal;
+     text-transform: none;
+     line-height: 1;
+
+     /* Better Font Rendering =========== */
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+
+     /* HOVER TRANSITION */
+     -o-transition:.5s;
+     -ms-transition:.5s;
+     -moz-transition:.5s;
+     -webkit-transition:.5s;
+     transition:.5s;
+}
+
+.icon-arrow:before { content: "\e601"; }
+span.icon-arrow {
+     color: #414141;
+     font-size: 10px;
+     margin-right: 10px;
+}
+span.icon-arrow:hover {
+     color: #e2ba58;
+}
+
+.container p {
+  margin-bottom: 50px;
+  font-family: "lust", serif;
+  font-size: 30px;
+  color: #E2BA58;
+}
+
+a {
+  color: #666;
+  font-weight: 300;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+a:hover {
+  color: #E2BA58;
+}
+
+section#intro {
+  height: 98%;
+  background: #f3f3f3;
+  color: #3ebede;
+}
+
+.intro-copy {
+  position: relative;
+  top: 500px;
+  left: 100px;
+  z-index: 2;
+}
+
+.intro-copy h1 {
+  font-family: "vinyl", sans-serif;
+  margin-bottom: 10px;
+  line-height: 82px;
+  font-size: 90px;
+  text-transform: uppercase;
+}
+
+.intro-copy p {
+  font-size: 16px;
+  font-family: 'Work Sans', Arial, sans-serif;
+  letter-spacing: .5px;
+  font-weight: 300;
+  width: 600px;
+  margin: 0 auto;
+  color:#444;
+  line-height: 28px;
+}
+
+img.logo {
+    height: 183px;
+    width: 20px;
+    position: absolute;
+    margin: 0 auto;
+    left: 50%;
+    bottom: 120px;
+}
+
+span.circle {
+  border-radius: 400px;
+  border: 1px solid rgb(27, 27, 27);
+  position: relative;
+  top: -30px;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  display: block;
+  z-index: 1;
+  opacity: .1;
+}
+
+hgroup {
+  position: relative;
+  top: 80px;
+  left: 70px;
+}
+
+h1 {
+  font-family: "lust", serif;
+  font-size: 90px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "lust", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 50px;
+  letter-spacing: 1px;
+  margin-top: 55px;
+}
+
+.album-info {
+  position: absolute;
+  bottom: 160px;
+  left: 80px;
+  z-index: 200;
+}
+
+span.number {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 100px;
+  float: left;
+}
+
+span.number::after {
+  content: "";
+  background-color: #e8d361;
+  width: 100px;
+  height: 3px;
+  display: block;
+  position: relative;
+  left: 70px;
+  top: 5px;
+}
+
+.album-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#thrice .album-cover {
+  background: url(img/thrice.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+  width: 100%;
+}
+
+#fil .album-cover {
+  background: url(img/fil.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+  width: 100%;
+}
+
+#bradley .album-cover {
+  background: url(img/bradley.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+  width: 100%;
+}
+
+#jimmy .album-cover{
+  background: url(img/jimmy.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+  width: 100%;
+}
+
+#dawes .album-cover {
+  background: url(img/dawes.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+  width: 100%;
+}
+
+#bon .album-cover {
+  background: url(img/bon.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+  width: 100%;
+}
+
+#radio .album-cover {
+  background: url(img/radiohead.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+  width: 100%;
+}
+
+#carseat .album-cover{
+  background: url(img/carseat.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+  width: 100%;
+}
+
+#ranger .album-cover {
+  background: url(img/stranger.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+  width: 100%;
+}
+
+#tycho .album-cover {
+  background: url(img/tycho.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+  width: 100%;
+}
+
+#kendrick .album-cover {
+  background: url(img/kendrick.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+  width: 100%;
+}
+
+.track {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  z-index: 250;
+}
+
+#cac span.number::after {
+    left: 130px;
+}
+
+.gradient {
+  height: 50%;
+  width: 100%;
+  z-index: 100;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  opacity: .6;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+#dcfc .gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+  background: -moz-linear-gradient(top,  rgba(158,151,148,0) 0%, rgba(158,151,148,0.65) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(158,151,148,0) 0%,rgba(158,151,148,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(158,151,148,0) 0%,rgba(158,151,148,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+#dawes .gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+  background: -moz-linear-gradient(top,  rgba(171,167,152,0) 0%, rgba(171,167,152,0.65) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(171,167,152,0) 0%,rgba(171,167,152,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(171,167,152,0) 0%,rgba(171,167,152,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+#mac .gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+  background: -moz-linear-gradient(top,  rgba(59,61,50,0) 0%, rgba(59,61,50,0.65) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(59,61,50,0) 0%,rgba(59,61,50,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(59,61,50,0) 0%,rgba(59,61,50,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+#talkie .gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+  background: -moz-linear-gradient(top,  rgba(63,89,122,0) 0%, rgba(63,89,122,0.65) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(63,89,122,0) 0%,rgba(63,89,122,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(63,89,122,0) 0%,rgba(63,89,122,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+#cac .gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+  background: -moz-linear-gradient(top,  rgba(44,38,61,0) 0%, rgba(44,38,61,0.65) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(44,38,61,0) 0%,rgba(44,38,61,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(44,38,61,0) 0%,rgba(44,38,61,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+#sufjan .gradient {
+  opacity: .5;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+  background: -moz-linear-gradient(top,  rgba(71,88,84,0) 0%, rgba(71,88,84,0.65) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(71,88,84,0) 0%,rgba(71,88,84,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(71,88,84,0) 0%,rgba(71,88,84,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+.top-gradient {
+	opacity: .5;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 30%;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.mobile {
+	display: none;
+}
+
+/*
+fadeIn
+*/
+
+.fadeIn{
+     animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+     opacity: 1;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 55%;
+  }
+
+	.mobile {
+		display: block;
+	}
+
+  h1 {
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+  }
+
+  span.circle {
+    top: -230px;
+  }
+
+  img.logo {
+    display: none;
+  }
+
+  h2 {
+    font-size: 26px;
+    margin-top: 0px;
+  }
+
+  .album-info {
+    bottom: 120px;
+    left: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  hgroup {
+    left: 0;
+    top: 30px;
+  }
+
+  span.number {
+    float: none;
+    font-size: 50px;
+  }
+
+  span.number::after {
+    width: 60px;
+    height: 3px;
+    display: block;
+    position: relative;
+    left: 0px;
+    top: 5px;
+    margin: 0 auto;
+  }
+
+  #cac span.number::after {
+    left: 0;
+  }
+
+  .track {
+    position: absolute;
+    top: 110px;
+    left: 31%;
+    width: 300px;
+  }
+
+	#kendrick .album-cover, #cac .album-cover, #talkie .album-cover, #tame .album-cover, #dcfc .album-cover, #bama .album-cover, #leon .album-cover, #mac .album-cover, #dawes .album-cover, #sufjan .album-cover {
+		background-attachment: scroll;
+		height: 100%;
+		width: 100%;
+	}
+
+}
+
+@media(max-width: 666px) {
+
+  .container {
+    width: 85%;
+  }
+
+  .container p {
+    line-height: 40px;
+  }
+
+  .intro-copy {
+    top: 60px;
+  }
+
+  .intro-copy h1 {
+    line-height: 85px;
+    font-size: 70px;
+    margin-bottom: 75px;
+  }
+
+  .intro-copy p {
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  span.circle {
+    top: -300px;
+    width: 275px;
+    height: 275px;
+  }
+
+  .track {
+    position: absolute;
+    top: 30px;
+    left: 9%;
+  }
+
+  .album-info {
+    bottom: 60px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  main p {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+}
+
+.cd-top {
+  z-index: 99999;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(226,186,88, 0.8) url(img/arrow.png) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.cd-top:hover {
+  background-color: #E2BA58;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}

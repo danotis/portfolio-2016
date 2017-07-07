@@ -1,0 +1,205 @@
+.index
+  height 100%
+
+  .all-work
+    width 88%
+
+  div.introduction
+    position relative
+    height 65%
+    width 100%
+
+  .white
+    color #EEE
+    font-weight 400
+
+  .view-work
+    font-size 14px
+    font-family "brandon-grotesque", Arial, sans-serif
+    font-weight 600
+    color #3C3C3C
+    letter-spacing 5px
+    text-transform uppercase
+    display block
+
+    .icon-arrow
+      font-size 11px
+      color #222
+
+  .rotate
+    transform rotate(90deg)
+    width 170px
+    position absolute
+    right -58px
+    bottom 0px
+
+  .bottom-out
+    font-size 30px
+    font-weight 200
+    line-height 46px
+    letter-spacing .5px
+    color #666
+    position absolute
+    bottom 90px
+
+    h1
+      font-family 'Work Sans', Arial, sans-serif
+      font-size 30px
+      font-weight 200
+      line-height 44px
+      text-transform none
+      letter-spacing 0
+
+    p
+      margin 0
+
+  .work-listing
+    padding 0
+    position relative
+    margin-bottom 350px
+
+    .work-devices
+      width 32%
+      position absolute
+      bottom -160px
+      left 120px
+      z-index 2
+
+    .work-devices:nth-of-type(4)
+      width 500px
+
+    img
+      width 100%
+
+    .work-title
+      position absolute
+      z-index 9999
+      right -20px
+      bottom -15px
+      width 30%
+      background-color #F1F1F1
+      padding 50px
+      box-shadow 0px 17px 90px -30px rgba(0,0,0,0.8)
+      transition .5s
+
+    .work-title:hover
+      right -40px !important
+      transition .5s
+
+
+    h2
+      color #3C3C3C
+      font-family "brandon-grotesque", Arial, sans-serif
+      font-size 24px
+      font-weight 400
+      text-transform uppercase
+      letter-spacing 6px
+      margin 0
+      padding 0
+
+    .project-type
+      padding 0
+      margin 0
+      color #ddd
+      font-family "brandon-grotesque", Arial, sans-serif
+      font-size 12px
+      text-transform uppercase
+      letter-spacing 4px
+
+  @media(max-width: 900px)
+    .view-work
+      display none
+
+  @media(max-width: tablet-landscape)
+
+    .work-devices
+      width 37% !important
+      position absolute !important
+      bottom -60px !important
+      left 24px !important
+
+    .work-title h2
+      font-size 20px !important
+
+    .work-title
+      padding 30px !important
+      width 40% !important
+      letter-spacing 3px !important
+
+    .work-listing
+      margin-bottom 180px !important
+
+    .bottom-out
+      font-size 24px !important
+      line-height 35px !important
+
+  @media(max-width: tablet)
+
+    .desktop
+      display none
+
+    .mobile
+      display block
+
+    .all-work
+      width 100%
+      margin 175px 0 180px 0
+
+    .mobile-work-listing .icon-arrow
+      font-size 12px
+
+    .list-title
+      font-family "brandon-grotesque", Arial, sans-serif
+      font-size 16px
+      font-weight 600
+      text-transform uppercase
+      color #E2BA58
+      letter-spacing 4px
+      margin-bottom 30px
+
+    ul.mobile-work-listing
+      padding 0
+      width 100%
+
+    .mobile-work-listing li
+      font-family "brandon-grotesque", Arial, sans-serif
+      font-weight 300
+      font-size 26px
+      text-transform uppercase
+      letter-spacing 4px
+      margin-bottom 40px
+
+    .mobile-work-listing li a
+      color #C6C6C6 !important
+
+    .icon-arrow
+      color #4d4d4d
+
+    div.introduction
+      height 80%
+
+  @media(max-width: mobile)
+
+    .bottom-out
+      font-size 19px !important
+      line-height 32px !important
+      top 280px
+      bottom none
+
+    .bottom-out h1
+      font-size 20px
+      line-height 38px
+
+    div.introduction
+      height 71%
+
+    .all-work
+      width 100%
+      margin 50px 0
+
+    .list-title
+      font-size 14px
+
+    .mobile-work-listing li
+      font-size 18px
+      margin-bottom 20px

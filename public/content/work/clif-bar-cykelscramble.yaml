@@ -1,0 +1,44 @@
+meta:
+  title: clif bar cykelscramble
+  description: Case study of visithumboldt.com
+  image:
+
+title: clif bar cykelscramble
+
+listing:
+  type: Website
+  image: /img/work/clif-bar-cykelscramble/marquee-bg.jpg
+  marquee-device: /img/work/clif-bar-cykelscramble/mobile-team.png
+
+blocks:
+  -
+    type: marquee
+    project-type: Website
+    title: Clif Bar Cykelscramble
+    background-image: /img/work/clif-bar-cykelscramble/marquee-bg.jpg
+    marquee-device:
+    mobile-marquee: /img/work/clif-bar-cykelscramble/mobile-marquee.png
+    launch-project: http://www.cykelscramble.com/
+
+  -
+    type: project-description
+    year: 2016
+    team: Bukwild
+    role: Art Direction, Design
+    writeup: Since it's inception in 2015, I have brought the wild and crazy vibes of CLIF Bar's annual Cykelscramble bike relay race to the internet as the lead Art Director and Designer.
+
+  -
+    type: solo-screen
+    image: /img/work/clif-bar-cykelscramble/browser-page.png
+
+  -
+    type: single-image
+    image: /img/work/clif-bar-cykelscramble/backend.png
+
+  -
+    type: single-image
+    image: /img/work/clif-bar-cykelscramble/team-manager.png
+
+  -
+    type: tilted-phone
+    image: /img/work/clif-bar-cykelscramble/mobile-team.png

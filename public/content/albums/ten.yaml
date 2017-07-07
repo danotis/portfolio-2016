@@ -1,0 +1,21 @@
+meta:
+  title: Pandora Advertising
+  description: As lead Art Director, I helped present a simplified approach to Pandora's B2B offerings.
+  image: /img/work/pandora/og-img.jpg
+
+title: Pandora Advertising
+
+listing:
+  type: Website
+  image: /img/work/pandora/marquee-bg.jpg
+  marquee-device: /img/work/pandora/marquee-device.png
+
+blocks:
+  -
+    type: marquee
+    project-type: Website
+    title: Pandora Advertising
+    background-image: /img/work/pandora/marquee-bg.jpg
+    marquee-device: /img/work/pandora/marquee-device.png
+    mobile-marquee: /img/work/pandora/mobile-bg.jpg
+    launch-project: http://advertising.pandora.com/

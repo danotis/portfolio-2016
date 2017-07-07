@@ -1,0 +1,66 @@
+meta:
+  title: Pandora Advertising
+  description: As lead Art Director, I helped present a simplified approach to Pandora's B2B offerings.
+  image: /img/work/pandora/og-img.jpg
+
+title: Pandora Advertising
+
+listing:
+  type: Website
+  image: /img/work/pandora/marquee-bg.jpg
+  marquee-device: /img/work/pandora/marquee-device.png
+
+blocks:
+  -
+    type: marquee
+    project-type: Website
+    title: Pandora Advertising
+    background-image: /img/work/pandora/marquee-bg.jpg
+    marquee-device: /img/work/pandora/marquee-device.png
+    mobile-marquee: /img/work/pandora/mobile-bg.jpg
+    launch-project: http://advertising.pandora.com/
+
+  -
+    type: project-description
+    year: 2015
+    team: <a href="http://www.bukwild.com/" target="_blank">Bukwild</a>
+    role: Art Direction, Design, UX
+    writeup: As lead Art Director, I helped present a simplified approach to Pandora's B2B offerings while simultaneously establishing them as thought leaders in the advertising community.
+
+  -
+    type: space
+
+  -
+    type: single-image
+    image: /img/work/pandora/homepage.jpg
+
+  -
+    type: space
+
+  -
+    type: wireframes
+    image: /img/work/pandora/wireframes.png
+    background-color: '#1CABE9'
+    caption: High-fidelity production wireframes
+
+  -
+    type: space
+
+  -
+    type: solo-screen
+    image: /img/work/pandora/insights.jpg
+    caption: I designed the first 20 "album covers" for Pandora's insight headlines
+
+  -
+    type: space
+
+  -
+    type: solo-screen
+    image: /img/work/pandora/three-phones.png
+    background-color: '#1CABE9'
+
+  -
+    type: space
+
+  -
+    type: space

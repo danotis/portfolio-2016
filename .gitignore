@@ -1,0 +1,27 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+.DS_Store
+.sass-cache
+
+# Dev and Frontend Dependencies
+node_modules
+/js/node_modules
+npm-debug.log
+
+# Work files
+_docs
+
+# Composer dependencies
+public/vendor/
+public/vendor/*
+
+# Builds ignored, will be created on deploy
+dist/*
+
+# Don't commit server info
+.env
+
+# Ignore webpack asset builds
+/public/dist/
+/public/dist/*

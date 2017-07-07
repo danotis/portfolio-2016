@@ -1,0 +1,133 @@
+meta:
+  title: Top Albums of 2016
+  description: End of the year list of top albums in 2016, by Dan Otis.
+  image:
+
+title: Top Albums of 2016
+
+blocks:
+  -
+    type: album-marquee
+
+  -
+    type: full-description
+    copy: My 11th annual End of the Year list. Enjoy.
+    link: <a href="/2016-honorable">Honorable Mentions</a>
+
+  -
+    type: album-listing
+    number: '10'
+    number-text: ten
+    album-title: Epoch
+    album-artist: Tycho
+    album-artwork: <img src="/img/albums/tycho.jpg">
+    album-link: 'https://open.spotify.com/album/0GXI4iAc5FshqWgIlaNAXO'
+    copy: Scott Hansen has rounded out a trilogy of albums with a beauty. The mixture of sounds from all 3 combine into something spectacular.
+    favorite: <strong>Favorite Track:</strong> Slack
+
+  -
+    type: album-listing
+    number: '09'
+    number-text: nine
+    album-title: We're All Gonna Die
+    album-artist: Dawes
+    album-artwork: <img src="/img/albums/dawes.jpg">
+    album-link: 'https://open.spotify.com/album/6bSJPJU1SRxm9RQ4Ox5sRe'
+    copy: Releasing two records within 15 months is a challenge in itself. Releasing two <i>great</i> records within 15 months is on another level. Dawes experimented a bit with this one and it paid off.
+    favorite: <strong>Favorite Track:</strong> We're All Gonna Die
+
+
+  -
+    type: album-listing
+    number: '08'
+    number-text: eight
+    album-title: Teens of Denial
+    album-artist: Car Seat Headrest
+    album-artwork: <img src="/img/albums/carseat.jpg">
+    album-link: 'https://open.spotify.com/album/26DseQO366JfXwIP7dIgQj'
+    copy: Took me awhile to notice this band/record, but once I did it really stuck with me. Can't wait to see what's next for Toledo and the rest.
+    favorite: <strong>Favorite Track:</strong> Drunk Drivers/Killer Whales
+
+
+  -
+    type: album-listing
+    number: '07'
+    number-text: seven
+    album-title: A Moon Shaped Pool
+    album-artist: Radiohead
+    album-artwork: <img src="/img/albums/radiohead.jpg">
+    album-link: 'https://open.spotify.com/album/6vuykQgDLUCiZ7YggIpLM9'
+    copy: <i>A Moon Shaped Pool</i> is by no means a disappointing record, but it wasn't what I anticipated so it took a little longer to strike a chord. However, it's still a Radiohead record so it's still incredible.
+    favorite: <strong>Favorite Track:</strong> True Love Waits
+
+
+  -
+    type: album-listing
+    number: '06'
+    number-text: six
+    album-title: Leaves L.A.
+    album-artist: st. Ranger
+    album-artwork: <img src="/img/albums/stranger.jpg">
+    album-link: 'https://open.spotify.com/album/0trXyj8mCIk1ssJWpQqezi'
+    copy: Shawn Harris' best project since The Matches. Surfy. Grungy. Happy. Poignant. If you want to smile, put this record on and when it's over, listen to his <i>Take/Leave EP</i>.
+    favorite: <strong>Favorite Tracks:</strong> Happy & P.S. & Unfu*k the World
+
+
+  -
+    type: album-listing
+    number: '05'
+    number-text: five
+    album-title: To Be Everywhere is to be Nowhere
+    album-artist: Thrice
+    album-artwork: <img src="/img/albums/thrice.jpg">
+    album-link: 'https://open.spotify.com/album/4hFDcpvIU9F4OleRAR9nNZ'
+    copy: Politically speaking, this record was made for 2016. It seems the 6 year hiatus proved a smart decision for Thrice as they came back with a vengance and released their best record since 2005.
+    favorite: <strong>Favorite Track:</strong> Hurricane
+
+
+  -
+    type: album-listing
+    number: '04'
+    number-text: four
+    album-title: 22, A Million
+    album-artist: Bon Iver
+    album-artwork: <img src="/img/albums/bon.jpg">
+    album-link: 'https://open.spotify.com/album/1PgfRdl3lPyACfUGH4pquG'
+    copy: Weird, exciting, soothing, and heartfelt. Justin Vernon's juxtaposition of electronic&mdash;and at times mechanical&mdash;sounds with his signature falsetto gives me chills with every listen.
+    favorite: <strong>Favorite Track:</strong> 33 "GOD"
+
+
+  -
+    type: album-listing
+    number: '03'
+    number-text: three
+    album-title: Changes
+    album-artist: Charles Bradley
+    album-artwork: <img src="/img/albums/bradley.jpg">
+    album-link: 'https://open.spotify.com/album/4TiJdmV0Oh7GauOdmfrXNe'
+    copy: I can't say enough great things about Charles Bradley. Seeing him live was one of the highlights of my entire year. The man oozes a passion for his craft and love for people. About a month after the show he announced he was diagnosed with stomach cancer. Sending all the love back to him.
+    favorite: <strong>Favorite Tracks:</strong> Changes & Slow Love
+
+
+  -
+    type: album-listing
+    number: '02'
+    number-text: two
+    album-title: Everything Feels Better Now
+    album-artist: From Indian Lakes
+    album-artwork: <img src="/img/albums/fil.jpg">
+    album-link: 'https://open.spotify.com/album/45v99hK5qTdmvbC615X6V5'
+    copy: Joey Vannucchi has never written a bad record. <i>Everything Feels Better Now</i> is a slight change in course for From Indian Lakes, but it is a welcome and fantastic one. Constantly find myself getting lost in every moment of this album.
+    favorite: <strong>Favorite Track:</strong> American Dreams
+
+
+  -
+    type: album-listing
+    number: '01'
+    number-text: one
+    album-title: Integrity Blues
+    album-artist: Jimmy Eat World
+    album-artwork: <img src="/img/albums/jimmy.jpg">
+    album-link: 'https://open.spotify.com/album/03hVtUfmQW3fhMbYoliIod'
+    copy: I've been waiting for Jimmy Eat World to take back the top spot on this list since I started making them. <i>Integrity Blues</i> doesn't return to the JEW sound of old as a fan service, it expands on all the things we love about them exquisitely.
+    favorite: <strong>Favorite Track:</strong> Pass the Baby

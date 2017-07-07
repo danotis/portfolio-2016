@@ -1,0 +1,29 @@
+meta:
+  title: Info
+  description: All About Dan Otis
+  image:
+
+title: Info
+
+blocks:
+  -
+    type: info-marquee
+    image: img/global/selfie.jpg
+    quote: Art and love are the same thing. It’s the process of seeing yourself in things that are not you.&rdquo;
+    quote-caption: &mdash; Chuck Klosterman
+
+  -
+    type: info-paragraph
+    title: Profile
+    content: I am an interactive and graphic designer with a Bachelor’s in Web Design and Interactive Media, as well as an education in traditional design. As Art Director at Bukwild in Sacramento, I've had the opportunity to work with clients such as CLIF Bar, Pandora, Copa America, Dark Horse Wine, Fitbit, Nasdaq, Tableau, and the Crocker Art Museum.
+
+  -
+    type: space
+
+  -
+    type: info-paragraph
+    title: About
+    content: Just a regular guy who enjoys kicking it with his wife and dachshund while a good record spins in the background. If it’s any time between September and June there’s a good chance I am wearing teal and yelling at referees during a San Jose Sharks game.
+
+  -
+    type: space

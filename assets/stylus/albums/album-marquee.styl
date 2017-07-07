@@ -1,0 +1,210 @@
+.album-marquee h1
+  font-family "Vinyl", sans-serif
+  font-size 232px
+  font-weight normal
+  text-transform uppercase
+  letter-spacing 0px
+  color #000
+  margin 0
+  padding 0
+
+.of
+  font-family "Vinyl", sans-serif
+  font-size 45px
+  font-weight normal
+  text-transform uppercase
+  letter-spacing 0px
+  color #000
+  position absolute
+  top 100px
+  left 86%
+
+.shift-right
+  position relative
+  left 103px
+  bottom 79px
+
+.attribute
+  width 165px
+  display inline
+  position absolute
+  left -42px
+  bottom 200px
+  font-family 'Vinyl', sans-serif
+  text-transform uppercase
+  letter-spacing 1px
+  transform rotate(270deg)
+
+  a
+    color #7DF1D7 !important
+
+    &:hover
+      color #000 !important
+
+.anchor-nav
+  position fixed
+  left 0
+  top 60px
+  height 100%
+  z-index 9999
+
+  a
+    content ""
+    width 100
+    height 2px
+    color #000
+
+  a .anchor-number:hover
+    transition 0.3s
+    color #7DF1D7
+    cursor pointer
+    right -38px
+
+  .anchor-point
+    margin-bottom 28px
+
+    &::before
+      content ""
+      display block
+      width 22px
+      height 1px
+      background-color #E0E0E0
+      position relative
+
+  .anchor-number
+    transition 0.3s
+    font-family "Vinyl", sans-serif
+    font-size 15px
+    color #000
+    letter-spacing 1px
+    position relative
+    right -33px
+    top -10px
+
+.anchor-hide
+  position relative
+  top -30px
+  display block
+
+.year-marquee
+  position relative
+  width 100%
+  overflow hidden
+
+.hgroup-marquee
+  position absolute
+  z-index 9999
+  top 240px
+  left 15%
+
+.two
+  width 30%
+  position relative
+  left 20%
+  top -100px
+
+.zero
+  width 32%
+  position absolute
+  left 58%
+  top -240px
+
+.one
+  width 18%
+  position absolute
+  left 42%
+  top 620px
+
+.six
+  width 30%
+  position relative
+  left 68%
+  top -190px
+
+@media(max-width: tablet-landscape)
+
+  .anchor-nav
+    top 40px
+
+  .attribute
+    bottom 110px
+
+@media(max-width: tablet)
+  .album-marquee h1
+    font-size 192px
+    line-height 245px
+
+  .year-marquee
+    width 100%
+    overflow hidden
+
+  .two
+    width 60%
+    left -20%
+
+  .zero
+    width 62%
+    left 50%
+    top -210px
+
+  .one
+    width 38%
+    left -8%
+    top 690px
+
+  .six
+    width 60%
+    left 43%
+    top -190px
+
+  .anchor-nav
+    display none
+
+  .hgroup-marquee
+    left 7%
+    top 300px
+
+@media(max-width: mobile)
+  .album-marquee h1
+    font-size 92px
+    line-height 85px
+
+  .of
+    font-size 25px
+    top 25px
+
+  .shift-right
+    left 0
+    bottom 0
+
+  .hgroup-marquee
+    top inherit
+    bottom 40px
+
+  .attribute
+    left 0
+    bottom -35px
+    transform none
+
+    a
+      color #000 !important
+
+  .two
+    width 60%
+    left -15%
+    top -20px
+
+  .zero
+    width 60%
+    left 48%
+    top -70px
+
+  .one
+    width 36%
+    left 12%
+    top 380px
+
+  .six
+    width 62%
+    left 47%
+    top -100px

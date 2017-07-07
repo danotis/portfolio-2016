@@ -1,0 +1,61 @@
+// Load npm packages
+@import '~normalize-styl'
+@import './_typography.scss'
+@import './definitions.styl'
+@import '~animate.css'
+
+@import './components/**/*'
+@import './work/**/*'
+@import './albums/**/*'
+
+body, html
+  height 100%
+  max-width 100%
+
+
+body
+  background #111
+  color white
+  font-family 'Work Sans', Arial, sans-serif
+
+.desktop
+  display block
+
+.mobile
+  display none
+
+h1
+  font-weight 300
+  font-family "brandon-grotesque", Arial, sans-serif
+  font-size 48px
+  text-transform uppercase
+  letter-spacing 10px
+  margin 0
+  padding 0
+
+a
+  color #FFF
+  text-decoration none
+  transition .5s
+
+a:hover
+  transition .5s
+
+.caption
+  font-size 14px
+  font-weight 500
+  color #4D4D4D
+
+ul
+  list-style none
+
+.icon-arrow
+  color #4c4c4c
+
+.wow
+  visibility hidden
+
+@media(max-width:mobile)
+
+  .mobile
+    display block

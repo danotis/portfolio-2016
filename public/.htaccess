@@ -1,0 +1,16 @@
+# Use PHP5.4 Single php.ini as default
+AddHandler application/x-httpd-php54s .php
+# Apache Server Configs v2.14.0 | MIT License
+# https://github.com/h5bp/server-configs-apache
+
+RewriteEngine On
+
+# Remove file extensions from php files
+# The projects routing structure will mirror the directory structure
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# IE: 'work/stikwood' -> 'danotis.dev/work/detail.php?slug=stikwood'
+RewriteRule ^work/([a-z0-9_-]+)$ /work/detail.php?slug=$1 [NC,L]

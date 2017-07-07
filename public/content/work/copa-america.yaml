@@ -1,0 +1,82 @@
+meta:
+  title: Copa America
+  description: Along with our entire team at Bukwild, I helped bring Copa America Centenario to life
+  image: /img/work/copa-america/og-img.jpg
+
+title: Copa America
+
+listing:
+  type: Website
+  image: /img/work/copa-america/marquee-bg.jpg
+  marquee-device: /img/work/copa-america/copa-marquee-devices.png
+
+blocks:
+  -
+    type: marquee
+    project-type: Website
+    title: Copa America
+    background-image: /img/work/copa-america/marquee-bg.jpg
+    mobile-marquee: /img/work/copa-america/mobile-marquee-bg.jpg
+    marquee-device: /img/work/copa-america/copa-marquee-devices.png
+    launch-project: http://www.ca2016.com/
+
+  -
+    type: project-description
+    year: 2015-16
+    team: <a href="http://www.bukwild.com/" target="_blank">Bukwild</a>
+    role: Design, Art Direction
+    writeup: Along with our entire team at Bukwild, I helped bring Copa America Centenario to life. By providing art direction and designing for a constantly changing digital environment, we made 2016 Copa's biggest year yet.
+
+  -
+    type: single-image
+    image: /img/work/copa-america/copa-tickets-browser.jpg
+
+  -
+    type: space
+
+  -
+    type: solo-screen
+    image: /img/work/copa-america/copa-pm-laptop.png
+    background-color: '#E5BF00'
+    caption: Home page marquee during a live match
+
+  -
+    type: space
+
+  -
+    type: space
+
+  -
+    type: single-image
+    image: /img/work/copa-america/copa-screen-1.jpg
+    caption: Home page marquee with two games that have yet to start
+
+  -
+    type: space
+
+  -
+    type: single-image
+    image: /img/work/copa-america/copa-screen-2.jpg
+    caption: Home page marquee with one live game, one finished game, and one upcoming game
+
+  -
+    type: space
+
+  -
+    type: space
+
+  -
+    type: single-image
+    image: /img/work/copa-america/copa-three-phones.png
+
+  -
+    type: solo-screen
+    image: /img/work/copa-america/copa-awards.png
+    background-color: '#E5BF00'
+    caption: Each “Man of the Match” winner received their own card on the awards wall
+
+  -
+    type: space
+
+  -
+    type: space
